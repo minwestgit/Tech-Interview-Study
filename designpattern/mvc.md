@@ -5,7 +5,7 @@ MVC란 **M**odel-**V**iew-**C**ontroller의 약자로 애플리케이션을 세
 - 모델 1 방식: JSP에서 출력과 로직을 전부 처리(Controller 영역에 View를 같이 구현)
 - 모델 2 방식: JSP에서 출력만 처리
 
-### 모델(Model
+### 모델(Model)
 
 DATA, 정보들의 가공을 책임지는 컴포넌트를 말합니다.
 
