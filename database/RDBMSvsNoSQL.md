@@ -1,13 +1,13 @@
 ## Q. 대표적인 RDBMS와 NoSQL에는 어떤 것들이 있고, 두 데이터베이스 시스템이 무엇이 다른지 차이점에 대해 설명해주세요
 
-**DBMS**(DataBase Management System) : 사용자와 데이터베이스 사이에서 사용자의 요구에 따라 정보를 생성해 주고 데이터베이스를 관리해 주는 소프트웨어
-스키마 : 데이터베이스를 구성하는 개체(Entity), 속성(Attribute), 관계(Relationship) 및 제약 조건 등에 관해 전반적으로 정의한 메타데이터의 집합
+- DBMS(DataBase Management System) : 사용자와 데이터베이스 사이에서 사용자의 요구에 따라 정보를 생성해 주고 데이터베이스를 관리해 주는 소프트웨어
+- 스키마 : 데이터베이스를 구성하는 개체(Entity), 속성(Attribute), 관계(Relationship) 및 제약 조건 등에 관해 전반적으로 정의한 메타데이터의 집합
 
 ### RDBMS(관계형 데이터베이스 관리 시스템)
 
-우선 **SQL(Structured Query Language)**은 데이터베이스에서 사용하는 쿼리 언어다. SQL을 사용하여 RDBMS에서 데이터를 검색, 저장, 수정, 삭제 등이 가능하다.
-**RDB(Relational Database)**란 관계형 데이터 모델에 기초를 둔 데이터베이스다. 관계형 데이터 모델이란 데이터를 구성하는데 필요한 방법 중 하나로 모든 데이터를 2차원 테이블 형태로 표현해준다.
-**RDBMS(Relational Database Management System)**란 관계형 데이터베이스를 생성하고 수정, 삭제 관리할 수 있는 소프트웨어라고 정의할 수 있다.
+우선 **SQL(Structured Query Language)** 은 데이터베이스에서 사용하는 쿼리 언어다. SQL을 사용하여 RDBMS에서 데이터를 검색, 저장, 수정, 삭제 등이 가능하다.
+**RDB(Relational Database)** 란 관계형 데이터 모델에 기초를 둔 데이터베이스다. 관계형 데이터 모델이란 데이터를 구성하는데 필요한 방법 중 하나로 모든 데이터를 2차원 테이블 형태로 표현해준다.
+**RDBMS(Relational Database Management System)** 란 관계형 데이터베이스를 생성하고 수정, 삭제 관리할 수 있는 소프트웨어라고 정의할 수 있다.
 
 #### 특징
 
@@ -24,7 +24,7 @@
 
 ### NoSQL(Not Only SQL)
 
-**NoSQL(Not Only SQL)**은 관계형 데이터베이스와 반대되는 방식을 사용하여 데이터간의 관계(join)를 정의하지 않는다.
+**NoSQL(Not Only SQL)** 은 관계형 데이터베이스와 반대되는 방식을 사용하여 데이터간의 관계(join)를 정의하지 않는다.
 RDBMS에서는 스키마에 맞추어 데이터를 관리하여야 하지만 NOSQL은 스키마가 없어 좀 더 자유롭게 데이터를 관리할 수 있다.
 NOSQL에서 테이블과 같은 개념으로 컬렉션이라는 형태로 데이터를 관리한다.
 
