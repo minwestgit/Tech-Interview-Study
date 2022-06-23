@@ -1,6 +1,6 @@
 ## 컬렉션 인터페이스의 상속 구조와 각각의 특징
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e8163a13-ccda-4fe4-ba99-e6edcb5648bc/Untitled.png)
+![image](https://user-images.githubusercontent.com/70561950/175332297-2a9cb378-dcbc-488d-b73b-9d61fe268e29.png)
 
 ### Collection
 데이터의 집합, 그룹을 나타내며, 하위 인터페이스로 List, Set이 있다. Map은 컬렉션 처럼 키와 값들을 검색하는 메서드들을 갖지만 “엘리먼트들의 그룹”이라는 컬렉션 인터페이스의 기본 개념과 맞지 않아 별도로 정의. 자료구조 + 메소드 묶어 놓은 것
