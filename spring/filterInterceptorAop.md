@@ -1,4 +1,5 @@
 ## Filter & Interceptor & AOP
+![](https://t1.daumcdn.net/cfile/tistory/9983FB455BB4E5D30C)
 
 Filter와 Interceptor, AOP 셋 다 Controller 전에 처리된다.
 
@@ -21,6 +22,8 @@ SpringFramework에서 자체적으로 제공하는 기능
 - preHandler() - 컨트롤러 메서드가 실행되기 전
 - postHanler() - 컨트롤러 메서드 실행직 후 view페이지 렌더링 되기 전
 - afterCompletion() - view페이지가 렌더링 되고 난 후
+
+![image](https://user-images.githubusercontent.com/70561950/178116043-6aec5ce6-03be-4591-96f8-62ef13aef5d1.png)
 
 ### AOP
 AOP는 새로운 프로그래밍 패러다임이 아니라 OOP(Object Oriented Programming, 객체 지향 프로그래밍)를 돕는 보조적인 기술로, 핵심적인 관심 사항(Core Concern)과 공통 관심 사항(Cross-Cutting Concern)으로 분리시키고 각각을 모듈화 하는 것을 의미한다. 예를 들어 우리가 개발한 API중에 회원 가입 API가 있다면, 핵심적인 관심 사항은 회원가입이라는 비지니스 로직이 될 것이고, 공통 관심 사항은 호출 시간 측정 로직이 될 것이다.
