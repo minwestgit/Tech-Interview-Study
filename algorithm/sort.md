@@ -39,7 +39,7 @@
 
 피벗을 정하며 피벗보다 작은 값은 왼쪽, 큰 값은 오른쪽으로 위치시킨 뒤 왼쪽과 오른쪽 수 들을 다시 각각의 피벗으로 나누어 리스트 크기가 1이 될 때 까지 정렬하는 방식
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e4345d6-db18-4dcd-aaf3-75826dd90636/Untitled.png)
+![image](https://user-images.githubusercontent.com/70561950/179021538-9127f957-a6e3-4d97-a462-f5b384a2c21a.png)
 
 - 최선 - O(NlogN) 
 - 최악 -  O(N^2)
