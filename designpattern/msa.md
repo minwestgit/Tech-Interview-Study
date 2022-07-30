@@ -20,6 +20,8 @@ MSA는 API를 통해서만 상호작용할 수 있다. 즉, 마이크로 서비�
 - 서비스가 분리되어 있기때문에 트랜잭션을 유지하기 어렵다.(DB가 각각이니까)
 - 테스트가 어렵다.
 
+<br>
+
 ### 구축 방법 -> DDD
 MSA(마이크로서비스 아키텍처)를 구축하기 위해 좋은 방법 중 하나는 DDD(도메인 주도 설계)이다.<br>
 [참고 자료](https://helloworld.kurly.com/blog/ddd-msa-service-development/)에 따르면 MSA를 구현하는 필수 개념들이 DDD에서 왔고, 그 중 **Loose Coupling(느슨한 결합)**과 **High Cohesion(높은 응집)**은 DDD에서의 좋은 서비스를 개발하기 위한 핵심 기본 요소 중 하나이다.
