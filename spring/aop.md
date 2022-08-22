@@ -55,3 +55,4 @@
 [https://shlee0882.tistory.com/206](https://shlee0882.tistory.com/206)
 [https://velog.io/@hyun6ik/AOP-용어-정리](https://velog.io/@hyun6ik/AOP-%EC%9A%A9%EC%96%B4-%EC%A0%95%EB%A6%AC)
 [https://yeoncoding.tistory.com/175](https://yeoncoding.tistory.com/175)
+https://defacto-standard.tistory.com/entry/IoC-DI-AOP
