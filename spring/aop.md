@@ -1,4 +1,6 @@
 ## AOP
+<img width="717" alt="스크린샷 2022-08-22 오후 11 55 53" src="https://user-images.githubusercontent.com/70561950/185952337-142f4c16-4649-48b3-b48e-c86e78ec678f.png">
+
 ### 용어 정리
 **조인포인트(Join Point)**
 - 어드바이스(부가기능)가 적용될 수 있는 위치를 말한다.
