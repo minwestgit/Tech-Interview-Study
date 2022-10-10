@@ -37,5 +37,5 @@ public class MyThread extends Thread {
 - 또한, Thread 클래스를 상속받으면 스레드 클래스의 메소드를 바로 사용할 수 있지만, Runnable 구현의 경우 Thread 클래스의 static 메소드인 currentThread()를 호출해 현재 스레드에 대한 참조를 얻어와야만 호출이 가능하다.
 <br>
 
-
+- 스레드의 실행을 run()이 아닌 start()로 하는 이유
 start() 메소드를 호출하면 JVM은 알아서 스레드를 위한 콜 스택을 새롭게 만들어주고 context switching을 통해 스레드답게 동작하도록 해준다. start()는 스레드가 작업을 실행하는 데 필요한 콜 스택을 생성한 다음 run()을 호출해서 그 스택 안에 run()을 저장할 수 있도록 해준다.
