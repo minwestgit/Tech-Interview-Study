@@ -43,5 +43,5 @@ CGLib Proxy는 Target 클래스를 상속 받아 프록시를 만든다. JDK 방
 
 
 #### Ref.
-https://mangkyu.tistory.com/175
+https://mangkyu.tistory.com/175 <br>
 https://minkukjo.github.io/framework/2021/05/23/Spring/
