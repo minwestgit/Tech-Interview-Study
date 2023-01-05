@@ -29,6 +29,7 @@ Spring AOP는 기본적으로 프록시 방식으로 동작한다. 프록시 패
 
 ## Spring의 AOP 프록시 구현 방법
 Spring의 AOP 프록시 구현 방법에는 JDK Proxy와 CGLib Proxy가 있다. 두 방식의 가장 큰 차이점은 Target의 어떤 부분을 상속 받아서 프록시를 구현하느냐에 있다.
+
 ![](https://velog.velcdn.com/images/minwest/post/51159f9a-bac4-4987-9562-f4a6687ba4af/image.png)
 
 ### JDK Proxy
