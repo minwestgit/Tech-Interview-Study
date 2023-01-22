@@ -7,7 +7,7 @@ Spring WebFlux는 Spring 5에서 추가된 논블로킹(Non-Blocking) 런타임�
 
 - 장점 : 고성능, spring 과 완벽한 통합, netty 지원, 비동기 non-blocking 메세지 처리
 - 단점 : 오류처리가 다소 복잡하다. Back Pressure 기능 없음
-
+<br>
 
 ### Spring MVC vs Spring Webflux
 ![image](https://user-images.githubusercontent.com/70561950/213615281-75caa115-d5f0-46f2-83b7-4bd932112f8e.png)
