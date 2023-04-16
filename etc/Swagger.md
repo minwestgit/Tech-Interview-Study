@@ -1,13 +1,16 @@
 ## Swagger
 
-Swagger 는 REST API를 설계, 빌드, 문서화 및 사용, 관리할 수 있는 Opp Api Specification(OAS)를 위한 프레임워크. Springboot에서 Swagger를 사용하면, 컨트롤러에 명시된 어노테이션을 해석하여 API문서를 자동으로 만들어준다. 참고로 Swagger는 Java에 종속된 라이브러리가 아니다.
+Swagger 는 REST API를 설계, 빌드, 문서화 및 사용, 관리할 수 있는 Opp Api Specification(OAS)를 위한 프레임워크이다. Springboot에서 Swagger를 사용하면, 컨트롤러에 명시된 어노테이션을 해석하여 API문서를 자동으로 만들어준다. 참고로 Swagger는 Java에 종속된 라이브러리가 아니다.
 
-[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html) 여기서 확인 가능
+- 기능 : API 설계, API 빌드, API 문서화(시각화), API 테스팅, API 표준화
 
-**기능 :** API 설계, API 빌드, API 문서화(시각화), API 테스팅, API 표준화
+- Swagger-UI : [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+
+
+
 <br>
 
-Config 설정
+### Config 설정
 
 - `useDefaultResponseMessages()`
     - `false`로 설정하면 swagger에서 제공해주는 응답코드(200, 401, 405, 404) 에 대한 기본 메시지를 노출하지 않는다.
