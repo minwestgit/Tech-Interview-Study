@@ -48,6 +48,15 @@ ex) [http://www.geocities.com/attacker](http://www.geocities.com/attacker)
 
 <br>
 
+### XSS와 XSRF의 차이
+
+**XSS**는 공격대상이 **Client**이고, **CSRF**는 **Server**이다.<br>
+XSS은 **사용자**가 특정 웹사이트를 신용하는 점을 노린 것이라면, CSRF는 **특정 웹사이트**가 사용자의 웹 브라우저를 신용하는 상태를 노린 것이다.<br>
+따라서, XSS는 사이트변조나 백도어를 통해 **클라이언트**에 대한 악성공격을 하고 CSRF는 요청을 위조하여 사용자의 권한을 이용해 **서버에** 대한 악성공격을 한다.<br>
+XSS의 주 목적은 쿠키/세션 갈취, 웹사이트 변조 등이고 CSRF는 권한 도용이다.<br>
+
+<br>
+
 #### Ref.
 [https://scshim.tistory.com/527](https://scshim.tistory.com/527) <br>
 [https://crossjin.tistory.com/entry/CSRFCross-Site-Request-Forgery란](https://crossjin.tistory.com/entry/CSRFCross-Site-Request-Forgery%EB%9E%80)<br>
