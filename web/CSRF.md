@@ -25,6 +25,8 @@ ex) [http://www.geocities.com/attacker](http://www.geocities.com/attacker)
 
 5. 이용자의 승인이나 인지 없이 출발지와 도착지가 등록됨으로써 공격이 완료된다. 해당 서비스 페이지는 등록 과정에 대해 단순히 쿠키를 통한 본인확인 밖에 하지 않으므로 공격자가 정상적인 이용자의 수정이 가능하게 된다.
 
+<img width="766" alt="스크린샷 2023-05-02 오후 10 48 03" src="https://user-images.githubusercontent.com/70561950/235685842-926c8fc2-b57f-4ad1-b06f-9dfc54c52b38.png">
+
 
 ### 방어 방법
 
