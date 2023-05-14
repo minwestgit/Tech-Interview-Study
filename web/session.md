@@ -6,6 +6,11 @@
 ## 세션 이용 방법
 <img width="684" alt="스크린샷 2023-05-11 오후 9 39 41" src="https://github.com/minwestgit/Tech-Interview-Study/assets/70561950/5642c200-c371-4c71-b9d2-421dfea31c3a">
 
+1. 웹 클라이언트가 서버에게 요청을 보내면 서버는 클라이언트를 식별하는 session id를 생성한다.(JSESSIONID라는 이름으로 세션ID 생성)
+2. 서버는 session id로 key와 value를 저장하는 Httpsession을 생성하고, session id를 저장하고있는 쿠키를 생성하여 클라이언트한테 전송한다. ›
+3. 클라이언트는 서버 측에 요청을 보낼 때, session id를 가지고 있는 쿠키를 전송한다.
+4. 서버는 쿠키의 session id로 Httpsession을찾는다.<br>
+javax.servlet.http.HttpSession으로 세션 데이터를 다룰 수 있다.
 
 ## 서버가 여러 대일 때 세션을 처리하는 방법
 
