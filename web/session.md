@@ -11,22 +11,23 @@
 3. 클라이언트는 서버 측에 요청을 보낼 때, session id를 가지고 있는 쿠키를 전송한다.
 4. 서버는 쿠키의 session id로 Httpsession을찾는다.<br>
 javax.servlet.http.HttpSession으로 세션 데이터를 다룰 수 있다.
+<br>
 
-### JSESSIONID
+- JSESSIONID
 
 톰캣 컨테이너에서 세션을 유지하기 위해 발급하는 키.<br>
 HTTP 프로토콜은 stateless하다. 요청시마다 새로운 연결이 생성되고 응답후 연결은 끊기게 되므로 상태를 유지할 수 없다. 따라서 상태를 저장하기 위해서 톰캣은 JSESSIONID 쿠키를 클라이언트에게 발급해주고 이 값을 통해 세션을 유지할 수 있도록 한다.<br>
 
-동작 방식
+#### 동작 방식
 1. 브라우저에 최초 접근 시 톰캣은 Response 헤더에 JSESSIONID값이 발급된다.
 2. 브라우저 재요청시 Response를 통해 받은 JSESSIONID를 Request 헤더의 쿠키에 값을 넣어 서버에 요청한다. 쿠키를 통해 JSESSIONID 값을 전달받게 되면 서버는 새로운 JSESSIONID 값을 Response 헤더에 발급받지 않는다.
 3. 클라이언트로부터 전달받은 JSESSIONID값을 기준으로 서버에서는 세션 메모리 영역에 상태를 유지할 값들을 저장할 수 있게 된다. (HttpSession 등)
 
-유지 범위
+#### 유지 범위
 - 동일한 Full 도메인 ( 서브도메인이 다를 경우 쿠키가 유지되지 않기 때문)
 - 포트번호는 달라도 무관하다.
 
-한계
+#### 한계
 - 톰캣 컨테이너를 2대 이상 사용하게 될 경우 세션을 유지할 수 없다. 유지가 되기 위해서는 세션 클러스터링 환경을 구축하여야 한다.
 
 [https://junjunrecord.tistory.com/95](https://junjunrecord.tistory.com/95) <br>
